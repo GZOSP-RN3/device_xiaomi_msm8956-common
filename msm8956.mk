@@ -318,7 +318,9 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.target.rc \
     init.qcom.usb.rc \
-    ueventd.qcom.rc
+    ueventd.qcom.rc \
+    init.spectrum.rc \
+    init.spectrum.sh
 
 # RenderScript HAL
 PRODUCT_PACKAGES += \
@@ -360,7 +362,7 @@ PRODUCT_PACKAGES += \
     textclassifier.tr.model \
     textclassifier.zh.model \
     textclassifier.zh-Hant.model
-
+:
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
